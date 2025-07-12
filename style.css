@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ .swiper-button-next.brandSlider::after,
+      .swiper-button-prev.brandSlider::after {
+        color: white;
+        font-size: 20px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+
+
+      body {
+         font-family: 'Playfair Display', serif;
+      }
